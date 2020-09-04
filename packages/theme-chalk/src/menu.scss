@@ -53,8 +53,8 @@
     border-right: none;
     & > .el-menu-item {
       float: left;
-      height: 60px;
-      line-height: 60px;
+      height: 50px;
+      line-height: 50px;
       margin: 0;
       border-bottom: 2px solid transparent;
       color: $--color-text-secondary;
@@ -88,8 +88,8 @@
       }
 
       & .el-submenu__title {
-        height: 60px;
-        line-height: 60px;
+        height: 50px;
+        line-height: 50px;
         border-bottom: 2px solid transparent;
         color: $--color-text-secondary;
 
@@ -214,7 +214,7 @@
     }
   }
 }
-  
+
 @include b(submenu) {
   list-style: none;
   margin: 0;
