@@ -108,23 +108,25 @@
 
   thead {
     color: $--table-header-font-color;
-    font-weight: 500;
+    /*font-weight: 500;*/
+    text-align: center !important;
 
     &.is-group {
       th {
-        background: $--background-color-base;
+        background: $--background-color-grey;
       }
     }
   }
 
   th, td {
-    padding: 12px 0;
+    padding: 5px 0;
     min-width: 0;
     box-sizing: border-box;
     text-overflow: ellipsis;
     vertical-align: middle;
     position: relative;
     text-align: left;
+    font-weight: normal;
 
     @include when(center) {
       text-align: center;

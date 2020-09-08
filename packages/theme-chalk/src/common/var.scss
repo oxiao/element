@@ -67,7 +67,8 @@ $--border-color-extra-light: #F2F6FC !default;
 
 // Background
 /// color|1|Background Color|4
-$--background-color-base: #F5F7FA !default;
+$--background-color-base: #FbFbFb !default;
+$--background-color-grey: #f4f4f4 !default;
 
 /* Link
 -------------------------- */
@@ -476,7 +477,7 @@ $--cascader-menu-font-color: $--color-text-regular !default;
 $--cascader-menu-selected-font-color: $--color-primary !default;
 $--cascader-menu-fill: $--fill-base !default;
 $--cascader-menu-font-size: $--font-size-base !default;
-$--cascader-menu-radius: $--border-radius-base !default;
+$--cascader-menu-radius: $--border-radius-small !default;
 $--cascader-menu-border: solid 1px $--border-color-light !default;
 $--cascader-menu-shadow: $--box-shadow-light !default;
 $--cascader-node-background-hover: $--background-color-base !default;
@@ -513,35 +514,35 @@ $--button-font-size: $--font-size-base !default;
 /// fontWeight||Font|1
 $--button-font-weight: $--font-weight-primary !default;
 /// borderRadius||Border|2
-$--button-border-radius: $--border-radius-base !default;
+$--button-border-radius: $--border-radius-small !default;
 /// padding||Spacing|3
-$--button-padding-vertical: 12px !default;
+$--button-padding-vertical: 8px !default;
 /// padding||Spacing|3
-$--button-padding-horizontal: 20px !default;
+$--button-padding-horizontal: 16px !default;
 
 /// fontSize||Font|1
 $--button-medium-font-size: $--font-size-base !default;
 /// borderRadius||Border|2
-$--button-medium-border-radius: $--border-radius-base !default;
+$--button-medium-border-radius: $--border-radius-small !default;
 /// padding||Spacing|3
-$--button-medium-padding-vertical: 10px !default;
+$--button-medium-padding-vertical: 6px !default;
 /// padding||Spacing|3
-$--button-medium-padding-horizontal: 20px !default;
+$--button-medium-padding-horizontal: 14px !default;
 
 /// fontSize||Font|1
 $--button-small-font-size: 12px !default;
 $--button-small-border-radius: #{$--border-radius-base - 1} !default;
 /// padding||Spacing|3
-$--button-small-padding-vertical: 9px !default;
+$--button-small-padding-vertical: 4px !default;
 /// padding||Spacing|3
-$--button-small-padding-horizontal: 15px !default;
+$--button-small-padding-horizontal: 12px !default;
 /// fontSize||Font|1
 $--button-mini-font-size: 12px !default;
 $--button-mini-border-radius: #{$--border-radius-base - 1} !default;
 /// padding||Spacing|3
-$--button-mini-padding-vertical: 7px !default;
+$--button-mini-padding-vertical: 2px !default;
 /// padding||Spacing|3
-$--button-mini-padding-horizontal: 15px !default;
+$--button-mini-padding-horizontal: 10px !default;
 
 /// color||Color|0
 $--button-default-font-color: $--color-text-regular !default;
@@ -628,17 +629,17 @@ $--dialog-padding-primary: 20px !default;
 /* Table
 -------------------------- */
 /// color||Color|0
-$--table-border-color: $--border-color-lighter !default;
+$--table-border-color: $--border-color-light !default;
 $--table-border: 1px solid $--table-border-color !default;
 /// color||Color|0
-$--table-font-color: $--color-text-regular !default;
+$--table-font-color: $--color-text-primary !default;
 /// color||Color|0
-$--table-header-font-color: $--color-text-secondary !default;
+$--table-header-font-color: $--color-text-primary !default;
 /// color||Color|0
 $--table-row-hover-background-color: $--background-color-base !default;
 $--table-current-row-background-color: $--color-primary-light-9 !default;
 /// color||Color|0
-$--table-header-background-color: $--color-white !default;
+$--table-header-background-color: $--background-color-grey !default;
 $--table-fixed-box-shadow: 0 0 10px rgba(0, 0, 0, .12) !default;
 
 /* Pagination
