@@ -22,7 +22,7 @@
   font-weight: $--button-font-weight;
   @include utils-user-select(none);
   & + & {
-    margin-left: 10px;
+    /*margin-left: 10px;*/
   }
 
   @include button-size($--button-padding-vertical, $--button-padding-horizontal, $--button-font-size, $--button-border-radius);
@@ -53,13 +53,13 @@
   @include when(plain) {
     &:hover,
     &:focus {
-      background: $--color-white;
+      background: $--color-text-regular;
       border-color: $--color-primary;
       color: $--color-primary;
     }
 
     &:active {
-      background: $--color-white;
+      background: $--color-text-regular;
       border-color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
       color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
       outline: none;
@@ -234,7 +234,7 @@
       z-index: 1;
     }
   }
-  
+
   & > .el-dropdown {
     & > .el-button {
       border-top-left-radius: 0;

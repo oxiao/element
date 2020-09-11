@@ -16,7 +16,7 @@ $--color-transition-base: color .2s cubic-bezier(.645,.045,.355,1) !default;
 /* Color
 -------------------------- */
 /// color|1|Brand Color|0
-$--color-primary: #409EFF !default;
+$--color-primary: #1951be !default;
 /// color|1|Background Color|4
 $--color-white: #FFFFFF !default;
 /// color|1|Background Color|4
@@ -518,7 +518,7 @@ $--button-border-radius: $--border-radius-small !default;
 /// padding||Spacing|3
 $--button-padding-vertical: 8px !default;
 /// padding||Spacing|3
-$--button-padding-horizontal: 16px !default;
+$--button-padding-horizontal: 12px !default;
 
 /// fontSize||Font|1
 $--button-medium-font-size: $--font-size-base !default;
@@ -527,7 +527,7 @@ $--button-medium-border-radius: $--border-radius-small !default;
 /// padding||Spacing|3
 $--button-medium-padding-vertical: 6px !default;
 /// padding||Spacing|3
-$--button-medium-padding-horizontal: 14px !default;
+$--button-medium-padding-horizontal: 10px !default;
 
 /// fontSize||Font|1
 $--button-small-font-size: 12px !default;
@@ -535,14 +535,14 @@ $--button-small-border-radius: #{$--border-radius-base - 1} !default;
 /// padding||Spacing|3
 $--button-small-padding-vertical: 4px !default;
 /// padding||Spacing|3
-$--button-small-padding-horizontal: 12px !default;
+$--button-small-padding-horizontal: 8px !default;
 /// fontSize||Font|1
 $--button-mini-font-size: 12px !default;
 $--button-mini-border-radius: #{$--border-radius-base - 1} !default;
 /// padding||Spacing|3
 $--button-mini-padding-vertical: 2px !default;
 /// padding||Spacing|3
-$--button-mini-padding-horizontal: 10px !default;
+$--button-mini-padding-horizontal: 6px !default;
 
 /// color||Color|0
 $--button-default-font-color: $--color-text-regular !default;
@@ -583,14 +583,14 @@ $--button-danger-font-color: $--color-white !default;
 /// color||Color|0
 $--button-danger-background-color: $--color-danger !default;
 /// color||Color|0
-$--button-info-border-color: $--color-info !default;
+$--button-info-border-color: $--border-color-base !default;
 /// color||Color|0
-$--button-info-font-color: $--color-white !default;
+$--button-info-font-color: $--color-text-regular !default;
 /// color||Color|0
-$--button-info-background-color: $--color-info !default;
+$--button-info-background-color: $--color-info-light !default;
 
-$--button-hover-tint-percent: 20% !default;
-$--button-active-shade-percent: 10% !default;
+$--button-hover-tint-percent: 10% !default;
+$--button-active-shade-percent: 5% !default;
 
 
 /* cascader

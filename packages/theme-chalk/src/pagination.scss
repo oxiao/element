@@ -84,7 +84,7 @@
   }
 
   .btn-next {
-    padding-left: 12px;    
+    padding-left: 12px;
   }
 
   .el-pager li.disabled {
@@ -168,7 +168,7 @@
     line-height: 18px;
     padding: 0 2px;
     height: $--pagination-button-height;
-      
+
     text-align: center;
     margin: 0 2px;
     box-sizing: border-box;
@@ -193,7 +193,7 @@
     .btn-prev,
     .btn-next,
     .el-pager li {
-      margin: 0 5px;
+      margin: 0 2px;
       background-color: $--color-info-lighter;
       color: $--color-text-regular;
       min-width: 30px;
@@ -218,8 +218,8 @@
       }
 
       &.active {
-        background-color: $--color-primary;
-        color: $--color-white;
+        background-color: $--color-text-placeholder;
+        color: $--color-text-primary;
       }
     }
 
