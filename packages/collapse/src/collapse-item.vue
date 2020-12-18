@@ -81,12 +81,13 @@
           return this._uid;
         }
       },
-      disabled: Boolean
+      disabled: Boolean,
+      isOpen: Boolean
     },
 
     computed: {
       isActive() {
-        return this.collapse.activeNames.indexOf(this.name) > -1;
+        return this.isOpen || this.collapse.activeNames.indexOf(this.name) > -1;
       }
     },
 

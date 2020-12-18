@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../../../../ViewUI/dist/styles/iview.css">
 <script type="text/jsx">
   import emitter from 'element-ui/src/mixins/emitter';
   import Migrating from 'element-ui/src/mixins/migrating';
@@ -272,7 +273,7 @@
           this.routeToItem(item, (error) => {
             this.activeIndex = oldActiveIndex;
             if (error) {
-              // vue-router 3.1.0+ push/replace cause NavigationDuplicated error 
+              // vue-router 3.1.0+ push/replace cause NavigationDuplicated error
               // https://github.com/ElemeFE/element/issues/17044
               if (error.name === 'NavigationDuplicated') return
               console.error(error)
